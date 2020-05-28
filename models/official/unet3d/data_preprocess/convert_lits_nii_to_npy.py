@@ -31,7 +31,7 @@ import nibabel as nib
 import numpy as np
 
 
-num_processes = 1
+num_processes = 2
 input_path = "/content/tpu/models/official/unet3d/media/nas/01_Datasets/CT/LITS/Training Batch 2/"  # where the .nii files are.
 output_path = "/content/tpu-1/models/official/unet3d/data"  # where you want to put the npy files.
 
